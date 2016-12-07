@@ -1,0 +1,171 @@
+main {
+	text-align: center;
+}
+
+.cover {
+	position: relative;
+	padding-top: 65px;
+}
+
+.cover img {
+
+	width: 100%
+
+}
+	
+
+.cover .txtcover {
+	position: absolute;
+	text-align: right;
+	color: #efefef;
+	text-shadow: 2px 1px #5b5b5b ;
+	bottom: 15%;
+	right: 8%;
+	font-size:4.5em;
+	font-family: Gobold Bold;
+	transition: 0.3;
+}
+	
+.section2 div {
+	width: 100%
+	display:inline-block;
+	
+
+}
+
+.botonera-1{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	
+	background-color: #072a16;
+}
+
+.botonera-1 div {
+	display: inline-flex;
+	width: 24%;
+	
+}
+
+	.botonera a {
+		text-decoration: none;
+		padding:2.5% 2.5% 2.5% 2.5%;
+		border-radius: 250px;
+		margin-right:0px;
+		margin-left: 0px;
+		color:#d2d2d2;
+		font-size: 40px;
+		font-weight: 800px;
+		transition: 0.3s;
+	}
+
+		.botonera a:hover {
+			padding:2.5% 2.5% 2.5% 2.5%;
+			border-radius: 0px;
+			background:#2d6b22;
+			transition: 0.3s; 
+		}
+
+.regate	.titulo-regate {
+	display: block;
+	width: 100%;
+	padding: 0.7px 0px 0px 0px;
+
+}
+
+.regate .titulo-regate h2 a {
+	text-decoration: none;
+	color: #d6d6d6;
+	font-size: 80px;
+	text-shadow: 4px 4px 6px #111;
+	/*padding-bottom: 20px;*/
+} 
+
+.regate .titulo-regate h2 a:hover {
+	color:#c5c5c5;
+	text-shadow: 4px 4px 10px #4a99c1;
+	transition: 0.35s; 
+}
+
+
+
+.video-regate iframe {
+	margin: 0;
+	padding-top: 0px;
+	width: 560px;
+	height: 315px;
+}
+
+.Regate {
+	background-image: url('../images/lights.jpg');
+	background-attachment: fixed;
+	width: 100%
+
+}
+
+.Regate div ul {
+	list-style: none;
+	text-align: left;
+	font-size: 60px;
+}
+
+.Regate div ul li a {
+
+	text-decoration:none;
+	color: #d2d2d2;
+	text-shadow: 4px 4px 6px #111;
+	transition: 0.5s; 
+}
+
+.Regate div ul li a:hover {
+	color:#c5c5c5;
+	text-shadow: 4px 4px 10px #4a99c1;
+	transition: 0.35s; 
+}
+
+.regate div {
+
+	display: inline-block;
+	padding: 1px 40px 20px 5px;
+
+}
+
+@media(max-width: 1026px){
+
+.video-regate iframe {
+	margin: 0;
+	padding-top: 0px;
+	width: 100%;
+
+}
+
+.cover .txtcover {
+	position: absolute;
+	text-align: right;
+	color: #efefef;
+	text-shadow: 2px 1px #5b5b5b ;
+	bottom: 15%;
+	right: 8%;
+	font-size:3.5em;
+	font-family: Gobold Bold;
+	transition: 0.5;
+}
+
+@media(max-width: 1026px){
+
+.video-regate iframe {
+	width: 568px;
+	margin: 0;
+	padding-top: 0px;
+
+}
+
+}
+
+
+
+}
+

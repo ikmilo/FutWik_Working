@@ -1,0 +1,125 @@
+footer {
+
+	background-image: url('../images/footer.jpg');
+	background-size: 100%;
+	padding: 10%;
+	background-repeat: no-repeat;
+
+}
+
+.pnav {
+	text-align: center;
+	background-color: rgba(110, 110, 110, 0.1);
+	width: 100%;
+	margin: auto;
+
+}
+
+.pnav div {
+	
+	margin: auto;
+	text-align: center;
+	display: inline-flex;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+.pnav ul {
+	margin-top: 30px;
+	list-style: none;
+
+}
+
+.pnav ul li a {
+
+	display: inline-block;
+	
+	margin-left: 10px;
+	font-family: Gobold-Regular;
+	/*font-weight: 400;*/
+	font-size: 15px;
+	color: #d2d2d2;
+	text-shadow: 2px 2px 2px #111 ;
+	text-decoration:none;
+
+}
+
+
+
+.pnav div ul h3 a {
+
+	text-decoration:none;
+	text-shadow: 2px 2px 2px #111 ;
+	color: #d2d2d2;
+}
+	
+}
+
+.pnav ul li {
+
+	color: #d2d2d2;
+
+
+
+}
+
+.ftblob {
+	text-align: center;
+	background-color: #111;
+	padding-top: 2em;
+	margin:auto;
+}
+
+.ftblob div {
+	display: inline-block;
+	padding-right:2em;
+	float: auto;
+}
+
+.ftblob img {
+	width: 100px;
+	margin:auto;
+}
+
+.ftblob p {
+
+	
+	color: #ddffe1;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+
+}
+
+/* - - - - R E S P O N S I V E - - - -  */
+
+@media(max-width: 320px) {
+
+
+.pnav div {
+	
+	text-align: center;
+	display: block;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.pnav ul li a {
+
+	display: inline-block;
+	
+	margin-left: 10px;
+	font-family: Gobold-Regular;
+	/*font-weight: 400;*/
+	font-size: 5px;
+	color: #d2d2d2;
+	text-decoration:none;
+
+}
+
+}
